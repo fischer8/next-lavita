@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: linear-gradient(72deg, #156fbb 1%, #43bbed 40%, #156fbb 90%);
+  --background-start-rgb: linear-gradient(72deg, #156fbb 1%, #43bbed 40%, #156fbb 90%);
+  --background-end-rgb: linear-gradient(72deg, #156fbb 1%, #43bbed 40%, #156fbb 90%);
+}
+
+
+/*body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(72deg, #156fbb 10%, #43bbed 70%, #156fbb 90%);
+}*/
+body {
+  background: #ebf9ff;
+}
