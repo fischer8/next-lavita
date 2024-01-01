@@ -13,6 +13,12 @@
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(72deg, #156fbb 10%, #43bbed 70%, #156fbb 90%);
 }*/
+
 body {
-  background: #ebf9ff;
+  background: #f8f4f4
 }
+
+
+/*body {
+  background: #ebf9ff;
+}*/

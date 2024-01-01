@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import Head from 'next/head'
+import React from 'react'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -16,6 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <title>Pousada La Vita</title>
+        <meta name="robots" content="all" />
+      </Head>
       <body className={inter.className}>
         {children}
       </body>
