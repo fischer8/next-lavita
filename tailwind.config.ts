@@ -18,6 +18,9 @@ const config: Config = {
           1000: '#f8c444',
           2000: '#f59e0b',
         },
+        'blue': {
+          1000: '#488ccc',
+        },
         'white': '#fff',
         'black': '#000000'
       },
