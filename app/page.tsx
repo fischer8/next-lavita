@@ -43,7 +43,7 @@ export default function Main() {
         <p className='mt-10 text-xs text-center border-black'>
           POUSADA LA VITA
         </p>
-        <h1 className='text-center font-bold text-xl'>
+        <h1 className='text-center font-bold text-xl 2xl:text-2xl'>
           SUÍTES
         </h1>
         <hr className='w-[100px] mb-8 mx-auto h-[3px] bg-yellow-1000' />
@@ -54,16 +54,16 @@ export default function Main() {
           Todas estão equipadas com smart TV, ar condicionado, internet e frigobar
           e têm vista para o jardim.
         </p>
-        <section className='mb-20 flex mx-auto w-5/6 sm:w-[560px] justify-center'>
-          <Image className='sm:w-[250px]' width={200} src={casal_img} alt='suite-casal' />
-          <section className='flex ms-4 flex-col'>
-            <h2 className='bg-blue-1000 ps-1 mb-4 text-white font-bold'>Suítes casal</h2>
-            <p className='ms-3 text-sm mb-4'>1 cama queen</p>
-            <p className='ms-3 mb-4 text-xs'>Cama extra disponível, mediante pedido</p>
-            <section className='ms-3 mt-6 flex'>
-              <Image className='me-2' width={48} src={casal_img} alt='suite-casal' />
-              <Image className='me-2' width={48} src={casal_img} alt='suite-casal' />
-              <Image className='me-2' width={48} src={casal_img} alt='suite-casal' />
+        <section className='mb-20 flex mx-auto w-5/6 sm:w-[560px] md:w-[700px] 2xl:w-[1000px] justify-between'>
+          <Image className='w-[200px] sm:w-[250px] 2xl:w-[400px]' width={400} src={casal_img} alt='suite-casal' />
+          <section className='flex ms-4 md:ms-8 w-full flex-col'>
+            <h2 className='bg-blue-1000 ps-1 mb-4 2xl:mb-10 text-white 2xl:text-2xl font-bold'>Suítes casal</h2>
+            <p className='ms-3 text-sm 2xl:text-lg mb-4 2xl:ms-6 2xl:mb-8'>1 cama queen</p>
+            <p className='ms-3 mb-4 2xl:ms-6 2xl:mb-8 text-sm'>Cama extra disponível, mediante pedido</p>
+            <section className='ms-3 flex 2xl:ms-6'>
+              <Image className='me-2 w-[48px] 2xl:w-[96px]' width={96} src={casal_img} alt='suite-casal' />
+              <Image className='me-2 w-[48px] 2xl:w-[96px]' width={96} src={casal_img} alt='suite-casal' />
+              <Image className='me-2 w-[48px] 2xl:w-[96px]' width={96} src={casal_img} alt='suite-casal' />
             </section>
           </section>
         </section>
