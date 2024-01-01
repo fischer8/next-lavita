@@ -21,19 +21,19 @@ export default function Main() {
             <Link rel="noopener noreferrer" target="_blank" href={'https://www.instagram.com/pousadalavita/'}><Image src={insta} alt='instagram' /></Link>
           </section>
         </nav>
-        <section className='sm:absolute text-center flex flex-col'>
-          <Image width={300} className='mt-8 sm:mt-0 mx-auto sm:w-[100px] md:w-[150px] 2xl:w-[250px] mb-4 md:mb-6 xl:mb-10' priority={true} src={logo_img} alt='' />
-          <p className='font-bold p-4 sm:p-0 mb-4 lg:mb-6 sm:text-sm md:text-lg lg:text-xl 2xl:text-2xl sm:w-[390px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
+        <section className='absolute text-center flex flex-col'>
+          <Image width={300} className='z-10 mx-auto w-[100px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' priority={true} src={logo_img} alt='' />
+          <p className='font-bold p-2 z-10 sm:p-0 sm:mb-4 lg:mb-6 text-xs sm:text-sm md:text-lg lg:text-xl 2xl:text-2xl sm:w-[330px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
             DESCANSE NA POUSADA MAIS ACONCHEGANTE DE SÃO MIGUEL DOS MILAGRES
           </p>
-          <p className='font-bold text-white mb-4 lg:mb-6 sm:text-sm lg:text-lg'>
+          <p className='font-bold text-white z-10 mb-4 lg:mb-6 text-sm lg:text-lg'>
             11 99435-2770 | 82 98181-2331
           </p>
-          <button className="p-2 sm:p-0 rounded sm:text-xs text-black hover:bg-yellow-500 bg-yellow-1000 lg:w-[120px] mx-auto sm:py-1 sm:px-2 md:py-2 md:px-4">
+          <button className="p-2 sm:p-0 z-10 rounded text-xs text-black hover:bg-yellow-500 bg-yellow-1000 lg:w-[120px] mx-auto sm:py-1 sm:px-2 md:py-2 md:px-4">
             RESERVE JÁ
           </button>
         </section>
-        <Image className='shadow-xl hidden absolute sm:block w-full' src={cover_img} alt='' />
+        <Image className='shadow-xl w-full' src={cover_img} alt='' />
       </header>
     </>
   );
