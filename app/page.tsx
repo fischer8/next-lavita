@@ -11,7 +11,7 @@ import casal_img from '/public/static/fotos/quartos/casal.png'
 export default function Main() {
   return (
     <>
-      <header className='block mb-20'>
+      <header id='home' className='block mb-20'>
         <section className='bg-blue-400 flex justify-center items-center'>
           <nav className='hidden w-[200px] font-bold text-sm text-white items-center justify-evenly top-2 right-0 sm:absolute sm:text-xs sm:flex xl:py-4 sm:w-[600px] md:w-[700px]'>
             <Link className='hover:text-yellow hover:underline' href={'#home'}>HOME</Link>
@@ -25,7 +25,7 @@ export default function Main() {
             </section>
           </nav>
           <section className='absolute text-center flex flex-col'>
-            <Image width={300} className='mx-auto w-[100px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' priority={true} src={logo_img} alt='lavita-logo' />
+            <Image width={300} className='mx-auto w-[48px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' priority={true} src={logo_img} alt='lavita-logo' />
             <p className='font-bold p-2 sm:p-0 sm:mb-4 lg:mb-6 text-xs sm:text-sm md:text-lg lg:text-xl 2xl:text-2xl w-[300px] sm:w-[330px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
               DESCANSE NA POUSADA MAIS ACONCHEGANTE DE SÃO MIGUEL DOS MILAGRES
             </p>
@@ -36,10 +36,10 @@ export default function Main() {
               RESERVE JÁ
             </button>
           </section>
-          <Image className='shadow-xl w-full' src={cover_img} alt='foto-capa' />
+          <Image priority={true} className='shadow-xl w-full' src={cover_img} alt='foto-capa' />
         </section>
       </header>
-      <main>
+      <main id='suites'>
         <p className='mt-10 text-xs text-center border-black'>
           POUSADA LA VITA
         </p>
@@ -61,9 +61,9 @@ export default function Main() {
             <p className='ms-3 text-sm 2xl:text-lg mb-4 2xl:ms-6 2xl:mb-8'>1 cama queen</p>
             <p className='ms-3 mb-4 2xl:ms-6 2xl:mb-8 text-sm'>Cama extra disponível, mediante pedido</p>
             <section className='ms-3 flex 2xl:ms-6'>
-              <Image className='me-2 w-[48px] 2xl:w-[96px]' width={96} src={casal_img} alt='suite-casal' />
-              <Image className='me-2 w-[48px] 2xl:w-[96px]' width={96} src={casal_img} alt='suite-casal' />
-              <Image className='me-2 w-[48px] 2xl:w-[96px]' width={96} src={casal_img} alt='suite-casal' />
+              <Image className='me-2 w-[48px] 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+              <Image className='me-2 w-[48px] 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+              <Image className='me-2 w-[48px] 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
             </section>
           </section>
         </section>
