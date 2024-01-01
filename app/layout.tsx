@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import Head from 'next/head'
 import React from 'react'
-import { Inter } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'LaVita',
