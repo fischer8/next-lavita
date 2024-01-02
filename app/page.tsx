@@ -36,7 +36,7 @@ export default function Main() {
               RESERVE JÁ
             </button>
           </section>
-          <Image priority={true} className='shadow-xl w-full' src={cover_img} alt='foto-capa' />
+          <Image className='shadow-xl w-full' src={cover_img} alt='foto-capa' />
         </section>
       </header>
       <main id='suites'>
