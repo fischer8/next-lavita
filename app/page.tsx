@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import logo_img from '/public/lavita_logo.webp'
-import cover_img from '/public/static/elem/cover.png'
-import phone_cover_img from '/public/static/elem/phone-cover.png'
+import cover_img from '/public/static/elem/cover.webp'
+import phone_cover_img from '/public/static/elem/phone-cover.webp'
 import insta_img from '/public/static/elem/insta.png'
 import wpp_img from '/public/static/elem/wpp.png'
 import casal_img from '/public/static/fotos/quartos/casal.png'
@@ -26,7 +26,7 @@ export default function Main() {
             </section>
           </nav>
           <section className='absolute text-center flex flex-col'>
-            <Image width={300} className='mx-auto w-[100px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' priority={true} src={logo_img} alt='lavita-logo' />
+            <Image priority={true} width={300} className='mx-auto w-[100px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' src={logo_img} alt='lavita-logo' />
             <p className='font-bold p-2 sm:p-0 sm:mb-4 lg:mb-6 text-xs sm:text-sm md:text-lg lg:text-xl 2xl:text-2xl w-[300px] sm:w-[330px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
               DESCANSE NA POUSADA MAIS ACONCHEGANTE DE SÃO MIGUEL DOS MILAGRES
             </p>
