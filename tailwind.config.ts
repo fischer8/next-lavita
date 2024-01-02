@@ -20,6 +20,7 @@ const config: Config = {
         },
         'blue': {
           1000: '#488ccc',
+          2000: '#437cad',
         },
         'white': '#fff',
         'black': '#000000'
