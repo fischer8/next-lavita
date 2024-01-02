@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import logo_img from '/public/lavita_logo.webp'
 import cover_img from '/public/static/elem/cover.png'
+import phone_cover_img from '/public/static/elem/phone-cover.png'
 import insta_img from '/public/static/elem/insta.png'
 import wpp_img from '/public/static/elem/wpp.png'
 import casal_img from '/public/static/fotos/quartos/casal.png'
@@ -12,7 +13,7 @@ export default function Main() {
   return (
     <>
       <header id='home' className='block mb-10 sm:mb-20'>
-        <section className='bg-blue-400 flex justify-center items-center'>
+        <section className='bg-blue-400 z-10 flex justify-center items-center'>
           <nav className='hidden w-[200px] font-bold text-sm text-white items-center justify-evenly top-2 right-0 sm:absolute sm:text-xs sm:flex xl:py-4 sm:w-[600px] md:w-[700px]'>
             <Link className='hover:text-yellow hover:underline' href={'#home'}>HOME</Link>
             <Link className='hover:text-yellow hover:underline' href={'#suites'}>SUÍTES</Link>
@@ -25,7 +26,7 @@ export default function Main() {
             </section>
           </nav>
           <section className='absolute text-center flex flex-col'>
-            <Image width={300} className='mx-auto hidden sm:block w-[48px] sm:w-[100px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' priority={true} src={logo_img} alt='lavita-logo' />
+            <Image width={300} className='mx-auto w-[100px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' priority={true} src={logo_img} alt='lavita-logo' />
             <p className='font-bold p-2 sm:p-0 sm:mb-4 lg:mb-6 text-xs sm:text-sm md:text-lg lg:text-xl 2xl:text-2xl w-[300px] sm:w-[330px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
               DESCANSE NA POUSADA MAIS ACONCHEGANTE DE SÃO MIGUEL DOS MILAGRES
             </p>
@@ -36,21 +37,22 @@ export default function Main() {
               RESERVE JÁ
             </button>
           </section>
-          <Image className='shadow-xl w-full' src={cover_img} alt='foto-capa' />
+          <Image priority={true} className='shadow-xl sm:hidden' src={phone_cover_img} alt='foto-capa' />
+          <Image priority={true} className='shadow-xl hidden sm:block' src={cover_img} alt='foto-capa' />
         </section>
       </header>
       <main id='suites'>
-        <p className='sm:mt-10 text-xs text-center border-black'>
+        <p className='sm:mt-10 text-xs text-center border-black 2xl:text-xl'>
           POUSADA LA VITA
         </p>
-        <h1 className='text-center font-bold text-xl 2xl:text-2xl'>
+        <h1 className='text-center font-bold text-xl lg:mb-4 2xl:text-4xl'>
           SUÍTES
         </h1>
-        <hr className='w-[100px] mb-8 mx-auto h-[3px] bg-yellow-1000' />
-        <p className='text-center w-3/4 sm:w-[530px] mb-4 sm:mb-0 mx-auto'>
+        <hr className='w-[100px] mb-8 mx-auto h-[3px] lg:h-[4px] 2xl:mb-16 2xl:w-[120px] bg-yellow-1000' />
+        <p className='text-center w-3/4 sm:w-full 2xl:text-2xl mb-4 sm:mb-0 mx-auto'>
           Nossas suítes são novas, espaçosas (17 m2) e muito confortáveis.
         </p>
-        <p className='text-center mb-14 sm:mb-16 w-3/4 sm:w-[560px] mx-auto'>
+        <p className='text-center mb-14 sm:mb-16 2xl:mb-20 w-3/4 sm:w-[560px] 2xl:w-[840px] 2xl:text-2xl mx-auto'>
           Todas estão equipadas com smart TV, ar condicionado, internet e frigobar
           e têm vista para o jardim.
         </p>
