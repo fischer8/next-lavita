@@ -11,8 +11,8 @@ import casal_img from '/public/static/fotos/quartos/casal.png'
 export default function Main() {
   return (
     <>
-      <header id='home' className='block mb-10 sm:mb-20'>
-        <section className='bg-blue-2000 z-10 flex justify-center items-center'>
+      <header id='home' className='block w-full mb-10 sm:mb-20'>
+        <section className='bg-blue-2000 flex justify-center items-center'>
           <nav className='hidden w-[200px] font-bold text-sm text-white items-center justify-evenly top-2 right-0 sm:absolute sm:text-xs sm:flex xl:py-4 sm:w-[600px] md:w-[700px]'>
             <Link className='hover:text-yellow hover:underline' href={'#home'}>HOME</Link>
             <Link className='hover:text-yellow hover:underline' href={'#suites'}>SUÍTES</Link>
@@ -36,10 +36,10 @@ export default function Main() {
               RESERVE JÁ
             </button>
           </section>
-          <Image priority={true} className='object-none h-[300px] shadow-xl sm:h-screen sm:object-cover sm:object-bottom' src={cover_img} alt='foto-capa' />
+          <Image priority={true} className='object-none h-[400px] shadow-xl sm:h-screen sm:object-cover sm:object-bottom' src={cover_img} alt='foto-capa' />
         </section>
       </header>
-      <main id='suites'>
+      <main id='suites' className=''>
         <p className='sm:mt-10 text-xs text-center border-black 2xl:text-xl'>
           POUSADA LA VITA
         </p>
@@ -55,16 +55,22 @@ export default function Main() {
           e têm vista para o jardim.
         </p>
         <section className='mb-20 flex flex-col sm:flex-row mx-auto w-5/6 sm:w-[560px] md:w-[700px] 2xl:w-[1000px] justify-between'>
-          <Image className='mx-auto sm:mx-0 w-[250px] 2xl:w-[400px]' width={400} src={casal_img} alt='suite-casal' />
+          <Image className='mx-auto sm:mx-0 w-11/12 sm:w-[250px] 2xl:w-[400px]' width={400} src={casal_img} alt='suite-casal' />
           <section className='flex mx-auto sm:mx-0 sm:ms-4 md:ms-8 w-full flex-col'>
-            <h2 className='bg-blue-1000 rounded-b mx-auto sm:mx-0 w-[250px] sm:w-full ps-1 mb-4 2xl:mb-10 text-white 2xl:text-2xl font-bold'>Suíte casal</h2>
-            <section className='mx-auto sm:mx-0 sm:w-full'>
-              <p className='ms-3 text-sm 2xl:text-lg mb-4 2xl:ms-6 2xl:mb-8'>1 cama queen</p>
+            <h2 className='bg-blue-1000 p-2 ps-2 rounded-b mx-auto sm:mx-0 w-11/12 sm:w-full mb-4 text-white 2xl:text-2xl font-bold'>Suíte casal</h2>
+            <section className='mx-auto w-11/12 sm:mx-0 w-'>
+              <p className='ms-3 text-sm 2xl:text-lg mb-4 2xl:ms-6 '>1 cama queen</p>
               <p className='ms-3 mb-4 2xl:ms-6 2xl:mb-8 text-sm'>Cama extra disponível, mediante pedido</p>
-              <section className='ms-3 flex 2xl:ms-6'>
-                <Image className='me-2 w-[48px] 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
-                <Image className='me-2 w-[48px] 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
-                <Image className='me-2 w-[48px] 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+              <section className='ms-3 flex w-full flex-wrap 2xl:ms-6'>
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
+                <Image className='me-2 mb-2 w-2/12 2xl:w-[96px]' loading="lazy" width={96} src={casal_img} alt='suite-casal' />
               </section>
             </section>
           </section>
