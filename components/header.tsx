@@ -24,7 +24,7 @@ export default function Header() {
           </section>
         </nav>
         <section className='absolute text-center flex flex-col'>
-          <Image priority={true} width={300} className='mx-auto w-[100px] md:w-[150px] 2xl:w-[250px] sm:mb-4 md:mb-6 xl:mb-10' src={logo_img} alt='lavita-logo' />
+          <Image priority={true} width={300} className='mx-auto w-[150px] md:w-[250px] 2xl:w-[350px] sm:mb-4 md:mb-6 xl:mb-10' src={logo_img} alt='lavita-logo' />
           <p className='font-bold p-2 sm:p-0 sm:mb-4 lg:mb-6 text-xs sm:text-sm md:text-lg lg:text-xl 2xl:text-2xl w-[300px] sm:w-[330px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
             DESCANSE NA POUSADA MAIS ACONCHEGANTE DE SÃO MIGUEL DOS MILAGRES
           </p>
