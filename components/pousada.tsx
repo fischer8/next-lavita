@@ -4,8 +4,8 @@ import frutas from '/public/static/fotos/pousada/frutas.png'
 import frutas2 from '/public/static/fotos/pousada/frutas2.png'
 import pousada from '/public/static/fotos/pousada/pousada.png'
 import prop1 from '/public/static/elem/prop1.png'
-import prop2 from '/public/static/elem/prop2.png'
-import prop3 from '/public/static/elem/prop3.png'
+//import prop2 from '/public/static/elem/prop2.png'
+//import prop3 from '/public/static/elem/prop3.png'
 
 export default function Pousada() {
   return (
