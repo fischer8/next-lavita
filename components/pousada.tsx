@@ -28,20 +28,20 @@ export default function Pousada() {
         Com ambiente charmoso e acolhedor, oferecemos piscina, café da manhã, culinária regional e muito alto astral. Aqui cada detalhe foi pensado com muito carinho para que você se sinta em casa e tenha uma experiência incrível em São Miguel dos Milagres.
       </p>
       <section className='w-11/12 flex justify-center mx-auto p-2 lg:p-4 mb-20 bg-blue-1000 overflow-hidden'>
-      <section className='flex flex-col sm:flex-row justify-center'>
-        <p className='w-[260px] xl:w-[390px] 2xl:me-4 sm:text-xs text-base xl:text-xl text-white h-fit my-auto'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
-        <section className='sm:flex mt-4 sm:mt-0 sm:w-10/12 grid grid-cols-3 sm:grid-cols-none gap-1 sm:gap-0 sm:flex-nowrap '>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
-          <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop'/>
+        <section className='flex flex-col sm:flex-row justify-center'>
+          <p className='w-[260px] xl:w-[390px] 2xl:me-4 sm:text-xs text-base xl:text-xl text-white h-fit my-auto'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
+          <section className='sm:flex mt-4 sm:mt-0 sm:w-10/12 grid grid-cols-3 sm:grid-cols-none gap-1 sm:gap-0 sm:flex-nowrap '>
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+          </section>
         </section>
-      </section>
       </section>
     </section>
   );
