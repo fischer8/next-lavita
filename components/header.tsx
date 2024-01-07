@@ -10,7 +10,7 @@ import wpp_img from '/public/static/elem/wpp.png'
 
 export default function Header() {
   return (
-    <header id='home' className='block w-full mb-20'>
+    <header id='home' className='block w-full mb-14'>
       <section className='bg-blue-2000 flex justify-center items-center'>
         <nav className='hidden w-[200px] font-bold text-sm text-white items-center justify-evenly top-2 right-0 sm:absolute sm:text-xs sm:flex 2xl:py-4 sm:w-[600px] md:w-[700px]'>
           <Link className='hover:text-yellow hover:underline' href={'#home'}>HOME</Link>
