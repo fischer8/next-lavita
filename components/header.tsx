@@ -24,14 +24,14 @@ export default function Header() {
           </section>
         </nav>
         <section className='absolute text-center flex flex-col'>
-          <Image priority={true} width={300} className='mx-auto w-[150px] md:w-[250px] 2xl:w-[350px] sm:mb-4 md:mb-6 xl:mb-10' src={logo_img} alt='lavita-logo' />
-          <p className='font-bold p-2 sm:p-0 sm:mb-4 lg:mb-6 text-xs sm:text-sm md:text-lg lg:text-xl 2xl:text-2xl w-[300px] sm:w-[330px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
+          <Image priority={true} width={300} className='mx-auto w-[150px] sm:w-[200px] md:w-[250px] 2xl:w-[350px] sm:mb-4 md:mb-6' src={logo_img} alt='lavita-logo' />
+          <p className='font-bold p-2 sm:p-0 sm:mb-4 lg:mb-6 text-xs sm:text-base md:text-lg lg:text-xl 2xl:text-2xl w-[300px] sm:w-[380px] md:w-[440px] lg:w-[480px] 2xl:w-[570px] text-white'>
             DESCANSE NA POUSADA MAIS ACONCHEGANTE DE SÃO MIGUEL DOS MILAGRES
           </p>
-          <p className='font-bold text-white mb-4 lg:mb-6 text-sm lg:text-lg'>
+          <p className='font-bold text-white mb-4 lg:mb-6 text-sm sm:text-base lg:text-xl'>
             11 99435-2770 | 82 98181-2331
           </p>
-          <button className="p-2 sm:p-0 rounded text-xs text-black hover:bg-yellow-500 bg-yellow-1000 lg:w-[120px] mx-auto sm:py-1 sm:px-2 md:py-2 md:px-4">
+          <button className="p-2 sm:p-0 rounded text-xs text-black hover:bg-yellow-500 bg-yellow-1000 mx-auto sm:py-3 sm:px-10 lg:text-lg ">
             RESERVE JÁ
           </button>
         </section>
