@@ -6,7 +6,7 @@ import triplo_img from '/public/static/fotos/quartos/triplo.png'
 
 export default function Suites() {
   return (
-    <section>
+    <section id="suites">
       <p className='text-xs text-center border-black lg:text-xl'>
         POUSADA LA VITA
       </p>

@@ -14,7 +14,7 @@ import pet from '/public/static/elem/pet.png'
 
 export default function Pousada() {
   return (
-    <section className='mb-14 sm:mb-20 lg:mb-32 lg:mt-24'>
+    <section id='pousada' className='mb-14 sm:mb-20 lg:mb-32 lg:mt-24'>
       <p className='text-xs sm:mb-4 text-center mx-auto w-[200px] lg:w-[300px] border-black lg:text-xl'>
         MELHOR CUSTO-BENEFÍCIO DE
         SÃO MIGUEL DOS MILAGRES
