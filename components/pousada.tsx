@@ -23,9 +23,9 @@ export default function Pousada() {
         POUSADA LA VITA
       </h1>
       <hr className='w-[100px] mb-8 mx-auto h-[3px] md:w-[80px] lg:h-[4px] 2xl:mb-16 lg:w-[160px] 2xl:w-[200px] bg-yellow-1000' />
-      <section className='flex justify-center w-10/12 mb-8 lg:mb-20 mx-auto'>
+      <section className='flex justify-center gap-1 w-11/12 mb-8 lg:mb-20 mx-auto'>
         <Image src={frutas} className='w-2/12 hidden sm:block' alt='frutas' />
-        <Image src={pousada} className='me-2 ms-2 lg:me-8 lg:ms-8 w-12/12 sm:w-8/12' alt='pousada' />
+        <Image src={pousada} className='w-12/12 sm:w-8/12' alt='pousada' />
         <Image src={frutas2} className='w-2/12 hidden sm:block' alt='frutas2' />
       </section>
       <p className='text-center mb-12 lg:mb-24 md:text-xl w-10/12 mx-auto'>
