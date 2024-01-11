@@ -14,7 +14,7 @@ import pet from '/public/static/elem/pet.png'
 
 export default function Pousada() {
   return (
-    <section className='mb-20 lg:mb-32 lg:mt-24'>
+    <section className='mb-14 sm:mb-20 lg:mb-32 lg:mt-24'>
       <p className='text-xs sm:mb-4 text-center mx-auto w-[200px] lg:w-[300px] border-black lg:text-xl'>
         MELHOR CUSTO-BENEFÍCIO DE
         SÃO MIGUEL DOS MILAGRES
@@ -32,23 +32,23 @@ export default function Pousada() {
         Localizada pertinho das piscinas naturais da Praia de Porto da Rua, a Pousada La Vita é um paraíso: a hospedagem perfeita para você e sua família descansarem sem gastar muito.
         Com ambiente charmoso e acolhedor, oferecemos piscina, café da manhã, culinária regional e muito alto astral. Aqui cada detalhe foi pensado com muito carinho para que você se sinta em casa e tenha uma experiência incrível em São Miguel dos Milagres.
       </p>
-      <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 lg:p-4 mb-12 sm:mb-20 bg-blue-1000 overflow-hidden'>
+      <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 lg:p-4 mb-12 sm:mb-16 xl:mb-20 bg-blue-1000 overflow-hidden'>
         <section className='flex flex-col items-center sm:flex-row justify-center'>
-          <p className='ps-2 sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[260px] xl:w-[390px] 2xl:me-4 sm:text-xs text-base xl:text-xl text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
-          <section className='sm:flex mt-4 sm:mt-0 sm:w-10/12 grid grid-cols-3 sm:grid-cols-none gap-1 sm:gap-0 sm:flex-nowrap '>
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
-            <Image className='sm:me-2 sm:w-[56px] md:w-[76px] lg:w-[96px] 2xl:me-4' src={prop1} alt='prop' />
+          <p className='ps-2 sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[240px] md:w-[280px] text-sm 2xl:me-4 md:text-base text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
+          <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-1 xl:gap-2'>
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+            <Image className='hidden xl:block sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
           </section>
         </section>
       </section>
-      <section className='flex gap-2 sm:gap-5 md:gap-0 w-full sm:w-8/12 justify-center md:w-11/12 mb-20 flex-wrap items-center md:justify-between mx-auto'>
+      <section className='flex gap-1 sm:gap-5 md:gap-0 w-[310px] sm:w-11/12 justify-center flex-wrap items-center md:justify-between mx-auto'>
         <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={praia} alt='praia' />
