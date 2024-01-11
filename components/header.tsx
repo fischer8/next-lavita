@@ -20,7 +20,7 @@ export default function Header() {
           <button className='bg-yellow-1000 text-white hover:bg-yellow-500 font-normal text-xs rounded sm:px-4 py-2 md:px-7 '>RESERVE JÁ</button>
           <section className='flex items-center'>
             <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770'}><Image src={wpp_img} width={38} alt='wpp_img' /></Link>
-            <Link rel="noopener noreferrer" target="_blank" href={'https://www.instagram.com/pousadalavita/'}><Image src={insta_img} alt='insta_imggram' /></Link>
+            <Link rel="noopener noreferrer" target="_blank" href={'https://www.instagram.com/pousadalavita/'}><Image src={insta_img} alt='instagram' /></Link>
           </section>
         </nav>
         <section className='absolute text-center flex flex-col'>
@@ -31,7 +31,7 @@ export default function Header() {
           <p className='font-bold text-white mb-4 lg:mb-6 text-sm sm:text-base lg:text-xl'>
             11 99435-2770 | 82 98181-2331
           </p>
-          <button className="p-2 sm:p-0 rounded text-xs text-white hover:bg-yellow-500 bg-yellow-1000 mx-auto sm:py-2 sm:px-10 lg:text-lg ">
+          <button className="py-2 sm:p-0 rounded text-xs text-white hover:bg-yellow-500 bg-yellow-1000 mx-auto px-6 sm:py-2 sm:px-10 lg:text-lg ">
             RESERVE JÁ
           </button>
         </section>
