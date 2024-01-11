@@ -9,7 +9,7 @@ import booking from '/public/static/elem/booking.png'
 
 export default function Sobre() {
   return (
-    <section className='mb-20'>
+    <section className='mb-24 sm:mb-40'>
       <p className='text-xs sm:mb-4 text-center border-black lg:text-xl'>
         POUSADA LA VITA
       </p>
