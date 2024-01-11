@@ -34,7 +34,7 @@ export default function Sobre() {
           </p>
         </section>
         <section className='flex gap-2 sm:gap-4 w-80 flex-col'>
-          <p className='font-bold text-center text-blue-1000'>
+          <p className='font-bold text-center text-2xl text-blue-1000'>
             Fernanda
           </p>
           <Image className='' src={review2} alt='review2' />

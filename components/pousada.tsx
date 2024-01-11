@@ -32,19 +32,19 @@ export default function Pousada() {
         Localizada pertinho das piscinas naturais da Praia de Porto da Rua, a Pousada La Vita é um paraíso: a hospedagem perfeita para você e sua família descansarem sem gastar muito.
         Com ambiente charmoso e acolhedor, oferecemos piscina, café da manhã, culinária regional e muito alto astral. Aqui cada detalhe foi pensado com muito carinho para que você se sinta em casa e tenha uma experiência incrível em São Miguel dos Milagres.
       </p>
-      <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 lg:p-4 mb-12 sm:mb-16 xl:mb-20 bg-blue-1000 overflow-hidden'>
+      <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 mb-12 sm:mb-16 xl:mb-20 bg-blue-1000 overflow-hidden'>
         <section className='flex flex-col items-center sm:flex-row justify-center'>
-          <p className='ps-2 sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[240px] md:w-[280px] text-sm 2xl:me-4 md:text-base text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
-          <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-1 xl:gap-2'>
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
-            <Image className='hidden xl:block sm:w-[56px] md:w-[76px] xl:w-[86px]' src={prop1} alt='prop' />
+          <p className='ps-2 text-center sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[240px] md:w-[280px] text-sm 2xl:me-4 md:text-base text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
+          <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2 xl:gap-2'>
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='hidden xl:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
           </section>
         </section>
       </section>
