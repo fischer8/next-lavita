@@ -12,12 +12,12 @@ export default function Header() {
   return (
     <header id='home' className='block w-full mb-14'>
       <section className='bg-blue-2000 flex justify-center items-center'>
-        <nav className='hidden w-[200px] font-bold text-sm text-white items-center justify-evenly top-2 right-0 sm:absolute sm:text-xs sm:flex 2xl:py-4 sm:w-[600px] md:w-[700px]'>
-          <Link className='hover:text-yellow hover:underline' href={'#home'}>HOME</Link>
-          <Link className='hover:text-yellow hover:underline' href={'#suites'}>SUÍTES</Link>
-          <Link className='hover:text-yellow hover:underline' href={'#pousada'}>POUSADA LA VITA</Link>
-          <Link className='hover:text-yellow hover:underline' href={'#contato'}>CONTATO</Link>
-          <button className='bg-yellow-1000 text-black hover:bg-yellow-500 font-normal text-xs rounded sm:py-1 sm:px-2 md:py-2 md:px-4 '>RESERVE JÁ</button>
+        <nav className='hidden w-[200px] font-bold text-white items-center justify-evenly top-2 right-0 sm:absolute sm:text-xs sm:flex 2xl:text-lg sm:w-[600px] md:w-[700px]'>
+          <Link className='hover:text-yellow-500 hover:underline' href={'#home'}>HOME</Link>
+          <Link className='hover:text-yellow-500 hover:underline' href={'#suites'}>SUÍTES</Link>
+          <Link className='hover:text-yellow-500 hover:underline' href={'#pousada'}>POUSADA LA VITA</Link>
+          <Link className='hover:text-yellow-500 hover:underline' href={'#contato'}>CONTATO</Link>
+          <button className='bg-yellow-1000 text-white hover:bg-yellow-500 font-normal text-xs rounded sm:px-4 py-2 md:px-7 '>RESERVE JÁ</button>
           <section className='flex items-center'>
             <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770'}><Image src={wpp_img} width={38} alt='wpp_img' /></Link>
             <Link rel="noopener noreferrer" target="_blank" href={'https://www.instagram.com/pousadalavita/'}><Image src={insta_img} alt='insta_imggram' /></Link>
@@ -31,7 +31,7 @@ export default function Header() {
           <p className='font-bold text-white mb-4 lg:mb-6 text-sm sm:text-base lg:text-xl'>
             11 99435-2770 | 82 98181-2331
           </p>
-          <button className="p-2 sm:p-0 rounded text-xs text-black hover:bg-yellow-500 bg-yellow-1000 mx-auto sm:py-3 sm:px-10 lg:text-lg ">
+          <button className="p-2 sm:p-0 rounded text-xs text-white hover:bg-yellow-500 bg-yellow-1000 mx-auto sm:py-2 sm:px-10 lg:text-lg ">
             RESERVE JÁ
           </button>
         </section>
