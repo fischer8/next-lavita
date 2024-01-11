@@ -10,7 +10,7 @@ import local from '/public/static/elem/local.png'
 
 export default function Footer() {
   return (
-    <section className='bg-blue-1000 text-white relative w-full h-[500px]'>
+    <section className='bg-blue-1000 text-white relative w-full pb-32'>
       <Image width={300} className='w-32 sm:w-52 2xl:w-[250px] absolute bottom-0 left-0' src={footerLb} alt='folhas' />
       <Image width={300} className='w-32 sm:w-52 2xl:w-[250px] absolute top-0 right-0' src={footerRT} alt='folhas' />
       <section className='flex items-center flex-wrap z-50 justify-around w-10/12'>
