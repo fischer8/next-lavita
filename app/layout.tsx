@@ -7,7 +7,7 @@ import './globals.css'
 const inter = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'LaVita',
+  title: 'Pousada La Vita - São Miguel dos Milagres - AL',
   description: 'Pousada',
 }
 
