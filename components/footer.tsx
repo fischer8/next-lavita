@@ -41,7 +41,7 @@ export default function Footer() {
             </Link>
           </section>
         </section>
-        <button className="mt-14 py-2 px-6 rounded bg-yellow-1000 hover:bg-yellow-500 sm:mt-32">
+        <button className="mt-14 text-gray-700 py-2 px-6 rounded bg-yellow-1000 hover:bg-yellow-500 sm:mt-32">
           RESERVE JÁ
         </button>
       </section>
