@@ -27,7 +27,7 @@ export default function Footer() {
         <section>
           <section className='flex mt-14 sm:mt-36 gap-2 mb-6'>
             <Image className='h-12 w-12' src={wpp_img} alt='whatsapp' />
-            <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770'} className='hover:text-yellow-500 hover:underline'>
+            <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770&text=Ola%20gostaria%20de%20fazer%20uma%20reserva'} className='hover:text-yellow-500 hover:underline'>
               <p>11 99435-2770</p>
               <p>82 98181-2331</p>
             </Link>

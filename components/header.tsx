@@ -17,9 +17,9 @@ export default function Header() {
           <Link className='hover:text-yellow-500 hover:underline' href={'#suites'}>SUÍTES</Link>
           <Link className='hover:text-yellow-500 hover:underline' href={'#pousada'}>POUSADA LA VITA</Link>
           <Link className='hover:text-yellow-500 hover:underline' href={'#contato'}>CONTATO</Link>
-          <button className='bg-yellow-1000 text-gray-700 hover:bg-yellow-500 font-normal text-xs rounded sm:px-4 py-2 md:px-7 '>RESERVE JÁ</button>
+          <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770&text=Ola%20gostaria%20de%20fazer%20uma%20reserva'} className='bg-yellow-1000 text-gray-700 hover:bg-yellow-500 font-normal text-xs rounded sm:px-4 py-2 md:px-7 '>RESERVE JÁ</Link>
           <section className='flex items-center'>
-            <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770'}><Image src={wpp_img} width={38} alt='wpp_img' /></Link>
+            <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770&text=Ola%20gostaria%20de%20fazer%20uma%20reserva'}><Image src={wpp_img} width={38} alt='wpp_img' /></Link>
             <Link rel="noopener noreferrer" target="_blank" href={'https://www.instagram.com/pousadalavita/'}><Image src={insta_img} alt='instagram' /></Link>
           </section>
         </nav>
