@@ -12,7 +12,7 @@ export default function Suites() {
   const [fotos, setFotos] = useState<StaticImageData[]>([])
   const [page, setPage] = useState(0)
   
-  const setView = (fotos, pageI = 0) => {
+  const setView = (fotos: StaticImageData[], pageI: number = 0) => {
     setFotos(fotos)
     setPage(pageI)
   }
