@@ -55,7 +55,7 @@ export default function Suites() {
         </section>
       </section>
       <SuiteCard fotos={triploPhotos} title='Suítes - Quarto triplo' setView={setView}/>
-      {fotos.length > 0 ? <Carousel fotos={fotos} page={page} setPage={setPage} setView={setView} />: ''}
+      {fotos.length > 0 && <Carousel fotos={fotos} page={page} setPage={setPage} setView={setView} />}
     </section>
   )
 }
