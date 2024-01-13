@@ -4,8 +4,9 @@ import frutas from '/public/static/pousada/frutas.png'
 import frutas2 from '/public/static/pousada/frutas2.png'
 import pousada from '/public/static/pousada/pousada.png'
 import prop1 from '/public/static/elem/prop1.webp'
-//import prop2 from '/public/static/elem/prop2.webp'
-//import prop3 from '/public/static/elem/prop3.webp'
+import prop2 from '/public/static/elem/prop2.webp'
+import prop3 from '/public/static/elem/prop3.webp'
+import prop4 from '/public/static/elem/prop4.webp'
 import praia from '/public/static/elem/praia-de-verao.png'
 import ar from '/public/static/elem/ar-condicionado.png'
 import piscina from '/public/static/elem/piscina.png'
@@ -37,9 +38,9 @@ export default function Pousada() {
           <p className='ps-2 text-center sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[240px] md:w-[280px] text-sm 2xl:me-4 md:text-base text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
           <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2 xl:gap-2'>
             <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop2} alt='prop' />
+            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop3} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop4} alt='prop' />
             <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
             <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
             <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
