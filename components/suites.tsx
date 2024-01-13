@@ -10,7 +10,7 @@ import duplo_img from '/public/static/quartos/duplo/duplo.png'
 
 export default function Suites() {
   const [fotos, setFotos] = useState<StaticImageData[]>([])
-  const [page, setPage] = useState(0)
+  const [page, setPage] = useState<number>(0)
   
   const setView = (fotos, pageI = 0) => {
     setFotos(fotos)
