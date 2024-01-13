@@ -5,7 +5,7 @@ import Image, { StaticImageData }from 'next/image';
 interface CarouselProps {
   fotos: StaticImageData[];
   page: number;
-  setPage: (a: number) => void;
+  setPage: React.Dispatch<React.SetStateAction<number>>;
   setView: (a: StaticImageData[], b: number) => void;
 }
 
