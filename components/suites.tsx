@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import casal_img from '/public/static/fotos/quartos/casal.png'
-import duplo_img from '/public/static/fotos/quartos/duplo.png'
-import triplo_img from '/public/static/fotos/quartos/triplo.png'
+import casal_img from '/public/static/quartos/casal/casal.png'
+import duplo_img from '/public/static/quartos/duplo/duplo.png'
+import triplo_img from '/public/static/quartos/triplo/triplo-1.webp'
 
 export default function Suites() {
   return (

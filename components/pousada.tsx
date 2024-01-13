@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image';
-import frutas from '/public/static/fotos/pousada/frutas.png'
-import frutas2 from '/public/static/fotos/pousada/frutas2.png'
-import pousada from '/public/static/fotos/pousada/pousada.png'
-import prop1 from '/public/static/elem/prop1.png'
-//import prop2 from '/public/static/elem/prop2.png'
-//import prop3 from '/public/static/elem/prop3.png'
+import frutas from '/public/static/pousada/frutas.png'
+import frutas2 from '/public/static/pousada/frutas2.png'
+import pousada from '/public/static/pousada/pousada.png'
+import prop1 from '/public/static/elem/prop1.webp'
+//import prop2 from '/public/static/elem/prop2.webp'
+//import prop3 from '/public/static/elem/prop3.webp'
 import praia from '/public/static/elem/praia-de-verao.png'
 import ar from '/public/static/elem/ar-condicionado.png'
 import piscina from '/public/static/elem/piscina.png'
@@ -49,31 +49,31 @@ export default function Pousada() {
         </section>
       </section>
       <section className='flex gap-1 sm:gap-5 md:gap-0 w-[310px] sm:w-11/12 justify-center flex-wrap items-center md:justify-between mx-auto'>
-        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={praia} alt='praia' />
             <p className='text-center text-xs md:text-base mx-auto'>750m da praia</p>
           </section>
         </section>
-        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={piscina} alt='piscina' />
             <p className='text-center text-xs md:text-base mx-auto'>Piscina</p>
           </section>
         </section>
-        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={ar} alt='ar-condicionado' />
             <p className='text-center text-xs md:text-base mx-auto'>Ar condicionado</p>
           </section>
         </section>
-        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={wifi} alt='wifi' />
             <p className='text-center text-xs md:text-base mx-auto'>Internet Wifi</p>
           </section>
         </section>
-        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={pet} alt='pet-friendly' />
             <p className='text-center text-xs md:text-base mx-auto'>Pet friendly</p>

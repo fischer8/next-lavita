@@ -31,9 +31,9 @@ export default function Header() {
           <p className='font-bold text-white mb-4 lg:mb-6 text-sm sm:text-base lg:text-xl'>
             11 99435-2770 | 82 98181-2331
           </p>
-          <button className="py-2 sm:p-0 rounded text-xs text-gray-700 hover:bg-yellow-500 bg-yellow-1000 mx-auto px-6 sm:py-2 sm:px-10 lg:text-lg ">
+          <Link rel="noopener noreferrer" target="_blank" href={'https://www.instagram.com/pousadalavita/'} className="py-2 sm:p-0 rounded text-xs text-gray-700 hover:bg-yellow-500 bg-yellow-1000 mx-auto px-6 sm:py-2 sm:px-10 lg:text-lg ">
             RESERVE JÁ
-          </button>
+          </Link>
         </section>
         <Image priority={true} className='object-none hidden sm:block shadow-xl sm:h-screen sm:object-cover sm:object-bottom' src={cover_img} alt='foto-capa' />
         <Image priority={true} className='h-[400px] sm:hidden shadow-xl' src={phone_img} alt='foto-capa' />
