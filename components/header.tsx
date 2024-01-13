@@ -31,7 +31,7 @@ export default function Header() {
           <p className='font-bold text-white mb-4 lg:mb-6 text-sm sm:text-base lg:text-xl'>
             11 99435-2770 | 82 98181-2331
           </p>
-          <Link rel="noopener noreferrer" target="_blank" href={'https://www.instagram.com/pousadalavita/'} className="py-2 sm:p-0 rounded text-xs text-gray-700 hover:bg-yellow-500 bg-yellow-1000 mx-auto px-6 sm:py-2 sm:px-10 lg:text-lg ">
+          <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770&text=Ola%20gostaria%20de%20fazer%20uma%20reserva'} className="py-2 sm:p-0 rounded text-xs text-gray-700 hover:bg-yellow-500 bg-yellow-1000 mx-auto px-6 sm:py-2 sm:px-10 lg:text-lg ">
             RESERVE JÁ
           </Link>
         </section>
