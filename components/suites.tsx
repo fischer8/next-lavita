@@ -10,7 +10,13 @@ import Carousel from "./carousel";
 
 export default function Suites() {
   const [view, setView] = useState<StaticImageData[]>([])
-  casalPhotos.map((foto) => console.log(foto))
+  const [page, setPage] = useState(0)
+  
+  const closeView = () => {
+    setView([])
+    setPage(0)
+  }
+
   return (
     <section id="suites">
       <p className='text-xs text-center border-black lg:text-xl'>
@@ -49,7 +55,7 @@ export default function Suites() {
         </section>
       </section>
       <SuiteCard fotos={triploPhotos} title='Suítes - Quarto triplo' view={setView}/>
-      {view.length > 0 && <Carousel view={setView} fotos={view} />}
+      {view.length > 0 ? <Carousel fotos={view} page={page} setPage={setPage} closeView={closeView} />: ''}
     </section>
   )
 }
