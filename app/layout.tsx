@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Head from 'next/head'
 import React from 'react'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Open_Sans } from 'next/font/google'
 import './globals.css'
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       </Head>
       <body className={inter.className}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   )
