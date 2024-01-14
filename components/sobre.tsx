@@ -20,7 +20,7 @@ export default function Sobre() {
       <section className='flex flex-wrap gap-16 justify-center mx-auto w-11/12'>
         <section className='bg-yellow-1000 flex flex-col justify-center w-56 h-56'>
           <p className='text-white ps-6 text-2xl'>Nota</p>
-          <p className='font-bold ps-6 text-white text-8xl'>9,4</p>
+          <p className='font-bold ps-6 text-white text-8xl'>9,3</p>
           <Image className='w-10/12 mx-auto' src={booking} alt='booking' />
         </section>
         <section className='flex gap-2 sm:gap-4 w-80 flex-col'>
