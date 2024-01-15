@@ -7,6 +7,11 @@ import prop1 from '/public/static/elem/prop1.webp'
 import prop2 from '/public/static/elem/prop2.webp'
 import prop3 from '/public/static/elem/prop3.webp'
 import prop4 from '/public/static/elem/prop4.webp'
+import prop5 from '/public/static/elem/prop5.webp'
+import prop6 from '/public/static/elem/prop6.webp'
+import prop7 from '/public/static/elem/prop7.webp'
+import prop8 from '/public/static/elem/prop8.webp'
+import prop9 from '/public/static/elem/prop9.webp'
 import praia from '/public/static/elem/praia-de-verao.png'
 import ar from '/public/static/elem/ar-condicionado.png'
 import piscina from '/public/static/elem/piscina.png'
@@ -36,16 +41,16 @@ export default function Pousada() {
       <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 mb-12 sm:mb-16 xl:mb-20 2xl:mb-32 bg-blue-1000 overflow-hidden'>
         <section className='flex flex-col items-center sm:flex-row justify-center'>
           <p className='ps-2 text-center sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[240px] md:w-[280px] text-sm 2xl:me-4 md:text-base text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
-          <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2 xl:gap-2'>
+          <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2 xl:gap-4 '>
             <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
             <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop2} alt='prop' />
             <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop3} alt='prop' />
             <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop4} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='hidden xl:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop6} alt='prop' />
+            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop7} alt='prop' />
+            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop8} alt='prop' />
+            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop9} alt='prop' />
+            <Image className='hidden xl:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop5} alt='prop' />
           </section>
         </section>
       </section>
