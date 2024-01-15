@@ -33,7 +33,7 @@ export default function Pousada() {
         Localizada pertinho das piscinas naturais da Praia de Porto da Rua, a Pousada La Vita é um paraíso: a hospedagem perfeita para você e sua família descansarem sem gastar muito.
         Com ambiente charmoso e acolhedor, oferecemos piscina, café da manhã, culinária regional e muito alto astral. Aqui cada detalhe foi pensado com muito carinho para que você se sinta em casa e tenha uma experiência incrível em São Miguel dos Milagres.
       </p>
-      <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 mb-12 sm:mb-16 xl:mb-20 bg-blue-1000 overflow-hidden'>
+      <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 mb-12 sm:mb-16 xl:mb-20 2xl:mb-32 bg-blue-1000 overflow-hidden'>
         <section className='flex flex-col items-center sm:flex-row justify-center'>
           <p className='ps-2 text-center sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[240px] md:w-[280px] text-sm 2xl:me-4 md:text-base text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
           <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2 xl:gap-2'>
@@ -50,31 +50,31 @@ export default function Pousada() {
         </section>
       </section>
       <section className='flex gap-1 sm:gap-5 md:gap-0 w-[310px] sm:w-11/12 justify-center flex-wrap items-center md:justify-between mx-auto'>
-        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={praia} alt='praia' />
             <p className='text-center text-xs md:text-base mx-auto'>750m da praia</p>
           </section>
         </section>
-        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={piscina} alt='piscina' />
             <p className='text-center text-xs md:text-base mx-auto'>Piscina</p>
           </section>
         </section>
-        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={ar} alt='ar-condicionado' />
             <p className='text-center text-xs md:text-base mx-auto'>Ar condicionado</p>
           </section>
         </section>
-        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={wifi} alt='wifi' />
             <p className='text-center text-xs md:text-base mx-auto'>Internet Wifi</p>
           </section>
         </section>
-        <section className='bg-gray-300 hover:bg-gray-400 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
+        <section className='bg-gray-300 flex justify-center items-center w-24 h-24 sm:w-32 sm:h-32 lg:w-44 lg:h-44 xl:w-52 xl:h-52 2xl:w-64 2xl:h-64'>
           <section>
             <Image className='mx-auto w-6/12' src={pet} alt='pet-friendly' />
             <p className='text-center text-xs md:text-base mx-auto'>Pet friendly</p>

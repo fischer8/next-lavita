@@ -17,7 +17,7 @@ const SuiteCard: React.FC<SuiteCardProps> = ({fotos, title, setView}) => {
           <p className='ms-3 text-sm mb-4 lg:text-xl lg:ms-6 '>1 Cama queen</p>
           <p className='ms-3 mb-4 2xl:ms-6 lg:mb-8 lg:ms-6 text-sm lg:text-base'>Cama extra disponível, mediante pedido</p>
           <section className='ms-3 flex w-full flex-wrap lg:ms-6'>
-            {fotos.map((foto, i) => <Image onClick={() => setView(fotos, i)} className='me-2 hover:scale-110 cursor-pointer mb-2 w-2/12 md:w-[48px] lg:w-[96px]' key={i} loading="lazy" width={96} src={foto} alt='suite-casal' />)}
+            {fotos.map((foto, i) => <Image onClick={() => setView(fotos, i)} className='me-2 object-none object-center hover:scale-110 cursor-pointer mb-2 w-2/12 md:w-[48px] lg:w-[96px]' key={i} loading="lazy" width={96} src={foto} alt='suite-casal' />)}
           </section>
         </section>
       </section>
