@@ -13,7 +13,7 @@ const Carousel: React.FC<CarouselProps> = ({ fotos, page, setPage, setView }) =>
     <section className='select-none fixed flex items-center justify-center top-0 w-full h-full bg-opacity-70 bg-black'>
       <section className='w-fit inset-0 h-fit mx-auto my-auto rounded bg-white'>
         <section className='relative object-contain'>
-          <Image placeholder='blur' src={fotos[page]} alt='fotos' className='z-50 transition duration-150 ease-in-out rounded mx-auto' />
+          <Image priority={true} placeholder='blur' src={fotos[page]} alt='fotos' className='z-50 transition duration-150 ease-in-out rounded mx-auto' />
           <button onClick={() => setView([], 0)} className='absolute rounded top-1 right-1 bg-white px-3 py-1'>X</button>
           <section className='absolute flex justify-center w-fit bottom-2 inset-x-0 mx-auto'>
             <button className='rounded border px-4 sm:p-2 sm:px-6 disabled:opacity-35  bg-white '
