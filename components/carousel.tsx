@@ -18,7 +18,7 @@ const Carousel: React.FC<CarouselProps> = React.memo(({ fotos, page, setPage, se
     <section className='max-w-xl'>
       <section className='relative w-full overflow-hidden'>
         <section className='flex transition-transform ease-out duration-200' style={{ transform: `translateX(-${page * 100}%)`}}>
-          {fotos.map((foto, i: number) => <Image className='h-auto rounded' key={`c${i}`} loading='eager' placeholder='blur' src={foto} alt='fotos' />)}
+          {fotos.map((foto, i: number) => <Image unoptimized={true} className='h-auto rounded' key={`c${i}`} loading='eager' placeholder='blur' src={foto} alt='fotos' />)}
         </section>
         <button onClick={() => setView([], 0)} className='absolute rounded top-1 right-1 bg-white px-3 py-1'>X</button>
           <section className='absolute flex justify-center w-fit bottom-2 inset-x-0 mx-auto'>
