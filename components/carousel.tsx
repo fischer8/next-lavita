@@ -15,10 +15,10 @@ const Carousel: React.FC<CarouselProps> = React.memo(({ fotos, page, setPage, se
   const increasePage = React.useMemo(() => () => setPage((prev: number) => prev + 1), [setPage]);
   return (
   <section className='select-none fixed flex items-center justify-center top-0 w-full h-full bg-opacity-90 bg-black'>
-    <section className='max-w-[600px]'>
-      <section className='relative overflow-hidden'>
+    <section className='max-w-xl'>
+      <section className='relative w-full overflow-hidden'>
         <section className='flex transition-transform ease-out duration-200' style={{ transform: `translateX(-${page * 100}%)`}}>
-          {fotos.map((foto, i: number) => <Image className='rounded' key={`c${i}`} loading='eager' placeholder='blur' src={foto} alt='fotos' />)}
+          {fotos.map((foto, i: number) => <Image className='h-auto rounded' key={`c${i}`} loading='eager' placeholder='blur' src={foto} alt='fotos' />)}
         </section>
         <button onClick={() => setView([], 0)} className='absolute rounded top-1 right-1 bg-white px-3 py-1'>X</button>
           <section className='absolute flex justify-center w-fit bottom-2 inset-x-0 mx-auto'>
