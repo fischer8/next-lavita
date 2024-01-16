@@ -3,6 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Open_Sans } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 const inter = Open_Sans({ subsets: ['latin'] })
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
