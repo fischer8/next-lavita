@@ -35,8 +35,8 @@ export default function Header() {
             RESERVE JÁ
           </Link>
         </section>
-        <Image priority={true} className='object-none hidden sm:block shadow-xl sm:h-screen sm:object-cover sm:object-bottom' src={cover_img} alt='foto-capa' />
-        <Image priority={true} className='h-[400px] sm:hidden shadow-xl' src={phone_img} alt='foto-capa' />
+        <Image loading='eager' className='object-none hidden sm:block shadow-xl sm:h-screen sm:object-cover sm:object-bottom' src={cover_img} alt='foto-capa' />
+        <Image loading='eager' className='h-[400px] sm:hidden shadow-xl' src={phone_img} alt='foto-capa' />
       </section>
     </header>
   );
