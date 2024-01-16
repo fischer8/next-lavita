@@ -12,7 +12,7 @@ const Carousel: React.FC<CarouselProps> = ({ fotos, page, setPage, setView }) =>
   return (
     <section className='select-none fixed flex items-center justify-center top-0 w-full h-full bg-opacity-90 bg-black'>
       <div role="status" className="absolute w-[600px] h-[300px] sm:h-[600px] rounded shadow animate-pulse ">
-        <div className="bg-white w-[600px] h-[300px] sm:h-[600px] rounded-lg dark:bg-gray-500"></div>
+        <div className="bg-white w-[600px] h-[300px] sm:h-[600px] p-10 rounded-lg dark:bg-gray-500">Carregando...</div>
       </div>
       <section className='w-fit inset-0 h-fit mx-auto my-auto rounded'>
         <section className='relative object-contain'>
