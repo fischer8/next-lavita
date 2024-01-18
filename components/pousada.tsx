@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import frutas from '/public/static/pousada/frutas.png'
 import frutas2 from '/public/static/pousada/frutas2.png'
-import pousada from '/public/static/pousada/pousada.png'
+import pousada from '/public/static/pousada/p1.webp'
 import prop1 from '/public/static/elem/prop1.webp'
 import prop2 from '/public/static/elem/prop2.webp'
 import prop3 from '/public/static/elem/prop3.webp'
