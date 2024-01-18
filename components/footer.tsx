@@ -25,25 +25,25 @@ export default function Footer() {
           </Link>
         </nav>
         <section>
-          <section className='flex mt-14 sm:mt-36 gap-2 mb-6'>
+          <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770&text=Ola%20gostaria%20de%20fazer%20uma%20reserva'} className='flex mt-14 sm:mt-36 gap-2 mb-6'>
             <Image className='h-12 w-12' src={wpp_img} alt='whatsapp' />
-            <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770&text=Ola%20gostaria%20de%20fazer%20uma%20reserva'} className='hover:text-yellow-500 hover:underline'>
+            <section className='hover:text-yellow-500 hover:underline'>
               <p>11 99435-2770</p>
               <p>82 98181-2331</p>
-            </Link>
-          </section>
-          <section className='flex'>
+            </section>
+          </Link>
+          <Link  className='flex' href={'https://maps.app.goo.gl/k4gvsaGCJSKRc5uA7'} rel="noopener noreferrer" target="_blank">
             <Image className='h-12 w-12' src={local} alt='local' />
-            <Link className='hover:text-yellow-500 hover:underline' href={'https://maps.app.goo.gl/k4gvsaGCJSKRc5uA7'} rel="noopener noreferrer" target="_blank" >
+            <section className='hover:text-yellow-500 hover:underline' >
               <p>R. do Jasmin, s/n</p>
               <p>Praia de Porto da Rua</p>
               <p>São Miguel dos Milagres - AL</p>
-            </Link>
-          </section>
+            </section>
+          </Link>
         </section>
-        <button className="mt-14 text-gray-700 py-2 px-6 rounded bg-yellow-1000 hover:bg-yellow-500 sm:mt-32">
+        <Link rel="noopener noreferrer" target="_blank" href={'https://api.whatsapp.com/send?phone=5511994352770&text=Ola%20gostaria%20de%20fazer%20uma%20reserva'} className="mt-14 text-gray-700 py-2 px-6 rounded bg-yellow-1000 hover:bg-yellow-500 sm:mt-32">
           RESERVE JÁ
-        </button>
+        </Link>
       </section>
     </section>
   );
