@@ -25,6 +25,9 @@ const config: Config = {
         'white': '#fff',
         'black': '#000000'
       },
+      screens: {
+        'xs': '350px',
+      }
 
     },
   },

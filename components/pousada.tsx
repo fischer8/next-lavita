@@ -25,32 +25,32 @@ export default function Pousada() {
         MELHOR CUSTO-BENEFÍCIO DE
         SÃO MIGUEL DOS MILAGRES
       </p>
-      <h1 className='text-center mb-4 font-bold text-xl md:text-2xl lg:text-4xl'>
+      <h1 className='text-center mb-2 font-bold text-xl md:text-2xl lg:text-4xl'>
         POUSADA LA VITA
       </h1>
-      <hr className='w-[100px] mb-8 mx-auto h-[3px] md:w-[80px] lg:h-[4px] 2xl:mb-16 lg:w-[160px] 2xl:w-[200px] bg-yellow-1000' />
-      <section className='flex justify-center gap-1 w-11/12 mb-8 lg:mb-20 mx-auto'>
+      <hr className='w-[100px] mb-10 mx-auto h-[3px] md:w-[80px] lg:h-[4px] 2xl:mb-16 lg:w-[160px] 2xl:w-[200px] bg-yellow-1000' />
+      <section className='flex justify-center gap-1 w-11/12 mb-5 lg:mb-12 mx-auto'>
         <Image src={frutas} className='w-2/12 hidden sm:block' alt='frutas' />
         <Image src={pousada} className='w-12/12 sm:w-8/12' alt='pousada' />
         <Image src={frutas2} className='w-2/12 hidden sm:block' alt='frutas2' />
       </section>
-      <p className='text-center mb-12 lg:mb-24 md:text-xl w-10/12 mx-auto'>
+      <p className='text-center mb-12 md:text-xl w-10/12 mx-auto'>
         Localizada pertinho das piscinas naturais da Praia de Porto da Rua, a Pousada La Vita é um paraíso: a hospedagem perfeita para você e sua família descansarem sem gastar muito.
         Com ambiente charmoso e acolhedor, oferecemos piscina, café da manhã, culinária regional e muito alto astral. Aqui cada detalhe foi pensado com muito carinho para que você se sinta em casa e tenha uma experiência incrível em São Miguel dos Milagres.
       </p>
-      <section className='border rounded sm:border-none sm:rounded-none w-11/12 flex justify-center mx-auto p-2 mb-12 sm:mb-16 xl:mb-20 2xl:mb-32 bg-blue-1000 overflow-hidden'>
+      <section className='border w-10/12 md:w-11/12 rounded sm:border-none sm:rounded-none flex justify-center mx-auto p-2 mb-6 sm:mb-16 xl:mb-20 2xl:mb-32 bg-blue-1000 overflow-hidden'>
         <section className='flex flex-col items-center sm:flex-row justify-center'>
           <p className='ps-2 text-center sm:ps-0 mt-2 mb-2 sm:mt-0 sm:mb-0 w-[240px] md:w-[280px] text-sm 2xl:me-4 md:text-base text-white h-fit'>Aproveite o melhor de São Miguel dos Milagres com a gente:</p>
-          <section className='mt-4 sm:mt-0 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2 xl:gap-4 '>
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop1} alt='prop' />
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop2} alt='prop' />
-            <Image className='sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop3} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop4} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop6} alt='prop' />
-            <Image className='sm:w-[56px] hidden sm:block md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop7} alt='prop' />
-            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop8} alt='prop' />
-            <Image className='hidden lg:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop9} alt='prop' />
-            <Image className='hidden xl:block sm:w-[56px] md:w-[76px] xl:w-[86px] 2xl:w-[96px]' src={prop5} alt='prop' />
+          <section className='mt-4 sm:mt-0 grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-2 xl:gap-4 '>
+            <Image className='' src={prop1} alt='prop' />
+            <Image className='' src={prop2} alt='prop' />
+            <Image className='' src={prop3} alt='prop' />
+            <Image className='' src={prop4} alt='prop' />
+            <Image className='' src={prop6} alt='prop' />
+            <Image className='' src={prop7} alt='prop' />
+            <Image className='sm:hidden lg:block' src={prop8} alt='prop' />
+            <Image className='sm:hidden lg:block' src={prop9} alt='prop' />
+            <Image className='hidden xl:block' src={prop5} alt='prop' />
           </section>
         </section>
       </section>
