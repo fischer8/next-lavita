@@ -23,28 +23,28 @@ export default function Sobre() {
           <p className='font-bold ps-6 text-white text-8xl'>9,3</p>
           <Image className='w-10/12 mx-auto' src={booking} alt='booking' />
         </section>
-        <section className='flex gap-2 sm:gap-4 w-80 flex-col'>
+        <section className='flex gap-2 w-80 flex-col'>
           <p className='font-bold text-center text-2xl text-blue-1000'>
             Jana e Joel
           </p>
-          <Image className='' src={review1} alt='review1' />
+          <Image src={review1} alt='review1' />
           <p className='text-center'>
             Adoramos a pousada😍 e também a Rita, que tem um astral ótimo e no que precisamos ela estava sempre lá para ajudar.
             Parabéns e obrigado a toda equipe da Pousada La Vita 👏👏👏
           </p>
         </section>
-        <section className='flex gap-2 sm:gap-4 w-80 flex-col'>
+        <section className='flex gap-2 w-80 flex-col'>
           <p className='font-bold text-center text-2xl text-blue-1000'>
             Fernanda
           </p>
-          <Image className='' src={review2} alt='review2' />
-          <p>
+          <Image src={review2} alt='review2' />
+          <p className='text-center'>
             Pousada maravilhosa! Com certeza voltaremos em breve 😍
           </p>
         </section>
         <section className='flex gap-16 sm:gap-10 w-11/12 sm:w-80 md:w-[450px] flex-col'>
           <section>
-            <section className='flex gap-4 items-center'>
+            <section className='flex gap-3 items-center'>
               <section>
                 <p className='font-bold w-[64px] text-blue-1000'>
                   Luisa
@@ -57,7 +57,7 @@ export default function Sobre() {
             </section>
           </section>
           <section>
-            <section className='flex gap-4 items-center'>
+            <section className='flex gap-3 items-center'>
               <section>
                 <p className='font-bold w-[64px] text-blue-1000'>
                   Priscila
@@ -70,7 +70,7 @@ export default function Sobre() {
             </section>
           </section>
           <section>
-            <section className='flex gap-4 items-center'>
+            <section className='flex gap-3 items-center'>
               <section>
                 <p className='font-bold w-[64px] text-blue-1000'>
                   Luís
