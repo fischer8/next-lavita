@@ -1,6 +1,4 @@
 import React from 'react'
-//import dynamic from 'next/dynamic'
-//const Suites = dynamic(() => import('@/components/suites'), { ssr: false })
 import Suites from '@/components/suites'
 import Header from '@/components/header';
 import Pousada from '@/components/pousada';
