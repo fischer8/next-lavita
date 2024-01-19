@@ -20,14 +20,14 @@ const Carousel: React.FC<CarouselProps> = React.memo(({ fotos, page, setPage, se
         <section className='flex transition-transform ease-out duration-200' style={{ transform: `translateX(-${page * 100}%)`}}>
           {fotos.map((foto, i: number) => <Image unoptimized={true} className='h-auto rounded' key={`c${i}`} loading='eager' placeholder='blur' src={foto} alt='fotos' />)}
         </section>
-        <button onClick={() => setView([], 0)} className='absolute rounded top-1 right-1 bg-white px-3 py-1'>X</button>
-          <section className='absolute flex justify-center w-fit bottom-2 inset-x-0 mx-auto'>
-            <button className='rounded border px-4 sm:p-2 sm:px-6 disabled:opacity-35  bg-white '
+        <button onClick={() => setView([], 0)} className='absolute rounded border-blue-1000 top-1 right-1 bg-yellow-1000 px-3 py-1'>X</button>
+          <section className='absolute gap-1 flex justify-center w-fit bottom-2 inset-x-0 mx-auto'>
+            <button className='rounded px-4 sm:p-2 sm:px-6 disabled:opacity-35  bg-yellow-1000'
               onClick={decreasePage}
               disabled={page === 0}>
               {'<'}
             </button>
-            <button className='rounded border px-4 sm:p-2 sm:px-6 disabled:opacity-35  bg-white '
+            <button className='rounded px-4 py-1 sm:p-2 sm:px-6 disabled:opacity-35  bg-yellow-1000'
               onClick={increasePage}
               disabled={page === (fotos.length - 1)}>
               {'>'}
