@@ -34,7 +34,7 @@ export default function Suites() {
         e têm vista para o jardim.
       </p>
       <SuiteCard fotos={casalImgs} title='Suíte casal' description={'1 Cama queen'} setView={setView}/>
-      <SuiteCard fotos={duploImgs} title='Suítes - Quarto duplo' description={'2 Camas de solteiro'} setView={setView}/>
+      <SuiteCard fotos={duploImgs} title='Suítes - Quarto duplo' description={'1 Cama de solteiro e uma de casal'} setView={setView}/>
       <SuiteCard fotos={triploImgs} title='Suítes - Quarto triplo' description={'3 Camas de solteiro'} setView={setView}/>
       {fotos.length > 0 && <Carousel fotos={fotos} page={page} setPage={setPage} setView={setView} />}
     </section>
